@@ -1,0 +1,240 @@
+%FDF-1.2
+%‚„œ”
+1 0 obj 
+<<
+/FDF 
+<<
+/Fields [
+<<
+/T (S2-R-rinex)
+/V ($S2_R_rinex)
+>> 
+<<
+/T (S2_PDOP)
+/V ($S2_PDOP)
+>> 
+<<
+/T (S1-RA-marca)
+/V ($S1_RA_marca)
+>> 
+<<
+/T (S2-BR-marca)
+/V ($S2_BR_marca)
+>> 
+<<
+/T (S2-mascara)
+/V ($S2_mascara)
+>> 
+<<
+/T (S1-RR-marca)
+/V ($S1_RR_marca)
+>> 
+<<
+/T (S1-BA-serie)
+/V ($S1_BA_serie)
+>> 
+<<
+/T (S1-R-punto)
+/V ($S1_R_punto)
+>> 
+<<
+/T (S1-RA-serie)
+/V ($S1_RA_serie)
+>> 
+<<
+/T (S1-fecha_inicio)
+/V ($S1_fecha_inicio)
+>> 
+<<
+/T (S2-intervalo)
+/V ($S2_intervalo)
+>> 
+<<
+/T (S1-B-archivo)
+/V ($S1_B_archivo)
+>> 
+<<
+/T (S1-fecha_fin)
+/V ($S1_fecha_fin)
+>> 
+<<
+/T (S1-hora_inicio)
+/V ($S1_hora_inicio)
+>> 
+<<
+/T (S2-B-punto)
+/V ($S2_B_punto)
+>> 
+<<
+/T (S1-R-altura)
+/V ($S1_R_altura)
+>> 
+<<
+/T (S1-B-rinex)
+/V ($S1_B_rinex)
+>> 
+<<
+/T (S1-otros)
+/V ($S1_otros)
+>> 
+<<
+/T (S2-BR-serie)
+/V ($S2_BR_serie)
+>> 
+<<
+/T (S1-BR-marca)
+/V ($S1_BR_marca)
+>> 
+<<
+/T (S1-R-archivo)
+/V ($S1_R_archivo)
+>> 
+<<
+/T (S1-RR-serie)
+/V ($S1_RR_serie)
+>> 
+<<
+/T (S1-BR-serie)
+/V ($S1_BR_serie)
+>> 
+<<
+/T (S1-BA-modelo)
+/V ($S1_BA_modelo)
+>> 
+<<
+/T (S1-R-rinex)
+/V ($S1_R_rinex)
+>> 
+<<
+/T (S2-RA-modelo)
+/V ($S2_RA_modelo)
+>> 
+<<
+/T (S1-intervalo)
+/V ($S1_intervalo)
+>> 
+<<
+/T (S2-BR-modelo)
+/V ($S2_BR_modelo)
+>> 
+<<
+/T (S1-B-altura)
+/V ($S1_B_altura)
+>> 
+<<
+/T (S2-RA-serie)
+/V ($S2_RA_serie)
+>> 
+<<
+/T (S2-RR-serie)
+/V ($S2_RR_serie)
+>> 
+<<
+/T (S2-hora_fin)
+/V ($S2_hora_fin)
+>> 
+<<
+/T (S2-R-antena)
+/V ($S2_R_altura)
+>> 
+<<
+/T (S1-RR-modelo)
+/V ($S1_RR_modelo)
+>> 
+<<
+/T (S1-mascara)
+/V ($S1_mascara)
+>> 
+<<
+/T (S2-fecha_inicio)
+/V ($S2_fecha_inicio)
+>> 
+<<
+/T (S1-RA-modelo)
+/V ($S1_RA_modelo)
+>> 
+<<
+/T (S2-R-archivo)
+/V ($S2_R_archivo)
+>> 
+<<
+/T (S2-otros)
+/V ($S2_otros)
+>> 
+<<
+/T (S2-R-punto)
+/V ($S2_R_punto)
+>> 
+<<
+/T (S2-RR-marca)
+/V ($S2_RR_marca)
+>> 
+<<
+/T (S2-hora_inicio)
+/V ($S2_hora_inicio)
+>> 
+<<
+/T (S1-BR-modelo)
+/V ($S1_BR_modelo)
+>> 
+<<
+/T (S1-PDOP)
+/V ($S1_PDOP)
+>> 
+<<
+/T (S1-hora_fin)
+/V ($S1_hora_fin)
+>> 
+<<
+/T (S2-BA-modelo)
+/V ($S2_BA_modelo)
+>> 
+<<
+/T (S2-BA-serie)
+/V ($S2_BA_serie)
+>> 
+<<
+/T (S1-BA-marca)
+/V ($S1_BA_marca)
+>> 
+<<
+/T (S1-B-punto)
+/V ($S1_B_punto)
+>> 
+<<
+/T (S2-B-rinex)
+/V ($S2_B_rinex)
+>> 
+<<
+/T (S2-B-altura)
+/V ($S2_B_altura)
+>> 
+<<
+/T (S2-fecha_fin)
+/V ($S2_fecha_fin)
+>> 
+<<
+/T (S2-RR-modelo)
+/V ($S2_RR_modelo)
+>> 
+<<
+/T (S2-BA-marca)
+/V ($S2_BA_marca)
+>> 
+<<
+/T (S2-B-archivo)
+/V ($S2_B_archivo)
+>> 
+<<
+/T (S2-RA-marca)
+/V ($S2_RA_marca)
+>>]
+>>
+>>
+endobj 
+trailer
+
+<<
+/Root 1 0 R
+>>
+%%EOF

@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+}
+
+.jp-InputArea {
+  display: none !important;
+}
+
+.jp-OutputPrompt {
+  display: none !important;
+}
+
+.jp-InputPrompt {
+  display: none !important;
+}
+
+.jp-OutputArea-output > pre {
+  font-size: 0.65rem;
+}
+
+table {
+  font-family: 'Cabin', sans-serif;
+}
+
+.jp-RenderedHTMLCommon table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: none;
+    color: rgba(0,0,0,0.87);
+    font-size: 12px;
+    table-layout: fixed;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.jp-RenderedHTMLCommon thead {
+    border-bottom: 1px solid rgba(190,190,190,1);
+    vertical-align: bottom;
+}
+
+.jp-RenderedHTMLCommon td, .jp-RenderedHTMLCommon th, .jp-RenderedHTMLCommon tr {
+    vertical-align: middle;
+    padding: 0.25em 0.25em;
+    line-height: normal;
+    white-space: normal;
+    max-width: none;
+    border: none;
+}
+
+.jp-RenderedHTMLCommon tbody tr:nth-child(2n+1) {
+    background: white !important;
+}
+
+.jp-RenderedHTMLCommon tbody tr:nth-child(2n) {
+    background: rgba(240,240,240,1) !important;
+}
+
+.anchor-link {
+  display: none;
+}
+
+.jp-RenderedImage {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.jp-RenderedImage > img {
+    max-width: 100%;
+}
+
+*{ color-adjust: exact;  -webkit-print-color-adjust: exact; print-color-adjust: exact; }

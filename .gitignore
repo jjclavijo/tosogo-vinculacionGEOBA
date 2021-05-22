@@ -1,0 +1,17 @@
+proyecto/sesiones
+proyecto/sp3
+proyecto/splits
+
+notebooks/output/*.[fp]df
+notebooks/output/*.html
+notebooks/output/*.ipynb
+
+*.[0-9][0-9][no]
+proyecto/*.cfg
+notebooks/*.csv
+
+venv
+
+.ipynb_checkpoints
+
+
