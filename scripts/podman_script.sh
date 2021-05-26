@@ -1,11 +1,17 @@
-#!/bin/bash
+#!/bin/zsh
 
-#podman pod create --name=DP-Vinculacion --share net -p 127.0.0.1:8890:8890
+if { podman pod list | grep -q tosogo-vinculacion }
+then 
+  echo Reusando Pod tosogo-vinculacion
+else 
+  echo Creando Pod tosogo-vinculacion
+  podman pod create --name=tosogo-vinculacion --share net -p 127.0.0.1:8890:8890
+fi
 
 MY_DIR=$(dirname "$0")
 
 podrun () {
-          podman run --rm --name=DP-Vinculacion_notebooks_tmp --pod=DP-Vinculacion \
+          podman run --rm --pod=tosogo-vinculacion  \
                      -e LOCAL_USER_ID=1000 \
                      --mount type=bind,source="$(realpath .)",destination=/proyecto \
                      --mount type=bind,source="/home/javier/proy/tosogo/glue",destination=/glue \
@@ -29,6 +35,8 @@ wkhtml () {
           rm "$MY_DIR"/tmp.html
 
           }
+
+mkdir -p output
 
 podrun papermill -f parametros.yaml notebooks/Vinculacion.ipynb output/Vectores.ipynb
 podrun python -m nbconvert output/Vectores.ipynb --to html
