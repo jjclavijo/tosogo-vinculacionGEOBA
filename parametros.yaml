@@ -1,0 +1,7 @@
+FILEFLD: 'input'
+OUTPUTFLD: 'output'
+TMPFLD: 'pfiles'
+FORMFLD: 'notebooks/forms'
+BASE: 'igm10240.20o'
+PIE: 'PFD10240.20o'
+AZIMUT: 'PFD20240.20o'

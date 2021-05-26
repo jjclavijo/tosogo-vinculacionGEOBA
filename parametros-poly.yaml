@@ -1,0 +1,4 @@
+BASE: 'IGM1'
+POLIGONAL: 'input/poligonal.csv'
+COORDENADAS: 'output/Resultados.csv'
+OUTPUTFLD: 'output'
